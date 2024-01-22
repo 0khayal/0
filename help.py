@@ -201,7 +201,7 @@ tele_checker2 = '''
 57-:ccccccdc
 58-:cccccccd
 
-`59`-:csdbot
+`59` -:csdbot
 
 ╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
 طريقة تفعيل الصيد 
