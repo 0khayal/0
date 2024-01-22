@@ -61,7 +61,7 @@ time_bio = ["off"]
 
 async def join_channel():
     try:
-        await sython(JoinChannelRequest("@RRJRJ"))
+        await sython(JoinChannelRequest("@TTxxxx"))
     except BaseException:
         pass
 
@@ -79,16 +79,13 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-**☆ WELCOME TO خيال
-☆ VERSION : 3.3
-☆ PING : `{ms}`
-☆ DATE : `{m9zpi}`
-☆ ID : `{event.sender_id}`
-☆ SOURCE خيال : @o_o_v **
-
--قـم بأرسال `.الاوامر`
-''')
-
+‌‎‌‎⿻︙WELCOME TO
+‌‎‌‎⿻︙VERSION : 3.3
+‌‎‌‎⿻︙PING : `{ms}`
+‌‎‌‎⿻︙DATE : `{m9zpi}`
+‌‎‌‎⿻︙ID : `{event.sender_id}`
+‌‎‌‎⿻︙SOURCE KHAYAL
+‌‎‌‎⿻︙DEV : @O_O_V
 
 @sython.on(events.NewMessage(outgoing=True, pattern=r"\.م1"))
 async def _(event):
@@ -123,13 +120,13 @@ async def OwnerStart(event):
 
 @sython.on(events.NewMessage(outgoing=True, pattern=r"\.اعادة تشغيل"))
 async def update(event):
-    await event.edit("• جارِ اعادة تشغيل السورس ..\n• انتضر 1-2 دقيقة  .")
+    await event.edit("• جارِ اعادة تشغيل السورس ..\n• انتظر 1-2 دقيقة  .")
     await sython.disconnect()
     await sython.send_message("me", "`اكتملت اعادة تشغيل السورس !`")
 
 @sython.on(events.NewMessage(outgoing=True, pattern=r"\.تجميع المليار"))
 async def _(event):
-        await event.edit("حسنا, تأكد من انك مشترك ب قنوات الاشتراك الاجباري لتجنب الأخطأء")
+        await event.edit("حسنا, تأكد من انك مشترك بقنوات الاشتراك الاجباري لتجنب الأخطاء")
         channel_entity = await sython.get_entity(bot_username)
         await sython.send_message('@zmmbot', 'جاري التجميع بواسطة | SOMY TEAM')
         channel_entity = await sython.get_entity(bot_username)
@@ -149,7 +146,7 @@ async def _(event):
             list = await sython(GetHistoryRequest(peer=channel_entity, limit=1,
                                                    offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
             msgs = list.messages[0]
-            if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
+            if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم بتجميع النقاط بطريقه مختلفه') != -1:
                 await sython.send_message(event.chat_id, f"لايوجد قنوات  في البوت | SY")
                 break
             url = msgs.reply_markup.rows[0].buttons[0].url
@@ -174,7 +171,7 @@ async def _(event):
 
 @sython.on(events.NewMessage(outgoing=True, pattern=r"\.تجميع الجوكر"))
 async def _(event):
-        await event.edit("حسنا, تأكد من انك مشترك ب قنوات الاشتراك الاجباري لتجنب الأخطأء")
+        await event.edit("حسنا, تأكد من انك مشترك بقنوات الاشتراك الاجباري لتجنب الأخطاء")
         channel_entity = await sython.get_entity(bot_usernamee)
         await sython.send_message('@A_MAN9300BOT', 'جاري التجميع بواسطة | SOMY TEAM')
         channel_entity = await sython.get_entity(bot_usernamee)
@@ -194,7 +191,7 @@ async def _(event):
             list = await sython(GetHistoryRequest(peer=channel_entity, limit=1,
                                                    offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
             msgs = list.messages[0]
-            if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
+            if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم بتجميع النقاط بطريقه مختلفه') != -1:
                 await sython.send_message(event.chat_id, f"لايوجد قنوات  في البوت | SY")
                 break
             url = msgs.reply_markup.rows[0].buttons[0].url
@@ -223,7 +220,7 @@ logging.basicConfig(
 
 async def join_channel():
     try:
-        await sython(JoinChannelRequest("@RRJRJ"))
+        await sython(JoinChannelRequest("@TTxxxx"))
     except BaseException:
         pass
  
@@ -397,7 +394,7 @@ async def _(event):
 
 @sython.on(events.NewMessage(outgoing=True, pattern=".مطور"))
 async def _(event):
-      await event.reply("""خيال : @TTxxxx"""
+      await event.reply("""خيال : @o_o_v"""
 )
 
 @sython.on(events.NewMessage(outgoing=True, pattern=".حلويات"))
