@@ -1,5 +1,5 @@
 commands = '''
-**سورس خيال
+سورس خيال
 الأوامر :
 
 `.م1` » اعدادات السورس
@@ -127,86 +127,86 @@ tele_checker2 = '''
 
 ╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
 
-1-:cd_dc
-2-:cd_cd
-3-:cd_dd
-4-:cd_cc
-5-:cc_dc
-6-:cc_cd
+`1`-:cd_dc
+`2`-:cd_cd
+`3`-:cd_dd
+`4`-:cd_cc
+`5`-:cc_dc
+`6`-:cc_cd
 
-7-:d_ccc
-8-:c_dcc
-9-:c_cdc
-10-:c_ccd
+`7`-:d_ccc
+`8`-:c_dcc
+`9`-:c_cdc
+`10`-:c_ccd
 
-11-:ccc_d
-12-:cdd_d
-13-:ccd_c
-14-:cdc_c
-15-:dcc_c
+`11`-:ccc_d
+`12`-:cdd_d
+`13`-:ccd_c
+`14`-:cdc_c
+`15`-:dcc_c
 
-16-:c_dcd
-17-:cdc_d
+`16`-:c_dcd
+`17`-:cdc_d
 
-18-:c_cdd
-19-:ccd_d
+`18`-:c_cdd
+`19`-:ccd_d
 
-20-:c_ddc
-21-:cdd_c
+`20`-:c_ddc
+`21`-:cdd_c
 
-22-:c_d_d_d
-23-:c_d_c_c
-24-:c_c_d_c
-25-:c_c_c_d
+`22`-:c_d_d_d
+`23`-:c_d_c_c
+`24`-:c_c_d_c
+`25`-:c_c_c_d
 
-26-:ccdddd
-27-:cddccc
-28-:ccddcc
-29-:cccddc
-30-:ccccdd
-31-:cccddd
+`26`-:ccdddd
+`27`-:cddccc
+`28`-:ccddcc
+`29`-:cccddc
+`30`-:ccccdd
+`31`-:cccddd
 
-32-:cdcddd
-33-:cdcdcc
-34-:ccdcdc
-35-:cccdcd
+`32`-:cdcddd
+`33`-:cdcdcc
+`34`-:ccdcdc
+`35`-:cccdcd
 
-36-:cdccdc
-37-:cddddc
+`36`-:cdccdc
+`37`-:cddddc
 
-38-:cddcdd
-39-:ccdccd
-40-:cdcccd
-41-:cdddcd
-42-:cdcdcd
+`38`-:cddcdd
+`39`-:ccdccd
+`40`-:cdcccd
+`41`-:cdddcd
+`42`-:cdcdcd
 
-43-:cdddcc
-44-:ccdddc
+`43`-:cdddcc
+`44`-:ccdddc
 
-45-:cdcddc
-46-:cddcdc
+`45`-:cdcddc
+`46`-:cddcdc
 
-47-:cdccdd
-48-:cddccd
+`47`-:cdccdd
+`48`-:cddccd
 
-49-:ccdcdd
-50-:ccddcd
+`49`-:ccdcdd
+`50`-:ccddcd
 
-51-:cddddddd
-52-:cdcccccc
-53-:ccdccccc
-54-:cccdcccc
-55-:ccccdccc
-56-:cccccdcc
-57-:ccccccdc
-58-:cccccccd
+`51`-:cddddddd
+`52`-:cdcccccc
+`53`-:ccdccccc
+`54`-:cccdcccc
+`55`-:ccccdccc
+`56`-:cccccdcc
+`57`-:ccccccdc
+`58`-:cccccccd
 
 `59`-:csdbot
 
 ╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
 طريقة تفعيل الصيد 
 
-.صيد + عدد المحاولات + رقم نوع الصيد + يوزر القناة الذي أنشأتها
+.صيد + العدد + رقم نوع الصيد + يوزر القناة
 ╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
 - مثال╎ `.صيد 1000 1 @o_o_v`
 '''
