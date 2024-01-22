@@ -79,12 +79,12 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-**☆ WELCOME TO حلم
+**☆ WELCOME TO خيال
 ☆ VERSION : 3.3
 ☆ PING : `{ms}`
 ☆ DATE : `{m9zpi}`
 ☆ ID : `{event.sender_id}`
-☆ SOURCE حلم : @h_P_k **
+☆ SOURCE خيال : @o_o_v **
 
 -قـم بأرسال `.الاوامر`
 ''')
@@ -115,11 +115,11 @@ async def _(event):
 
     
 ownerhson_id = 1041483862
-@sython.on(events.NewMessage(outgoing=False, pattern='حلم'))
+@sython.on(events.NewMessage(outgoing=False, pattern='خيال'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('هنا يمك حلم ابشر  @H_P_K')
+        order = await event.reply('هنا يمك خيال ابشر  @o_o_v')
 
 @sython.on(events.NewMessage(outgoing=True, pattern=r"\.اعادة تشغيل"))
 async def update(event):
@@ -284,7 +284,7 @@ async def gcast(event):
             "**⌔∮ يجب الرد على رساله او وسائط او كتابه النص مع الامر**"
         )
         return
-    roz = await event.edit("⌔∮ يتم الاذاعة في الخاص انتظر لحضه")
+    roz = await event.edit("⌔∮ يتم الاذاعة في الخاص انتظر لحظه")
     er = 0
     done = 0
     async for x in event.client.iter_dialogs():
@@ -313,7 +313,7 @@ async def gucast(event):
             "**⌔∮ يجب الرد على رساله او وسائط او كتابه النص مع الامر**"
         )
         return
-    roz = await event.edit("⌔∮ يتم الاذاعة في الخاص انتظر لحضه")
+    roz = await event.edit("⌔∮ يتم الاذاعة في الخاص انتظر لحظه")
     er = 0
     done = 0
     async for x in event.client.iter_dialogs():
@@ -374,7 +374,7 @@ async def spam_function(event, sandy, cat, sleeptimem, sleeptimet, DelaySpam=Fal
             pass
 
 
-@sython.on(events.NewMessage(outgoing=True, pattern=".مؤقت (.*)"))
+@sython.on(events.NewMessage(outgoing=True, pattern=".ن (.*)"))
 async def spammer(event):
     reply = await event.get_reply_message()
     input_str = "".join(event.text.split(maxsplit=1)[1:]).split(" ", 2)
@@ -387,7 +387,7 @@ async def spammer(event):
     
 @sython.on(events.NewMessage(outgoing=True, pattern=".سورس"))
 async def _(event):
-      await event.reply("""السـورس يعمـل |حلم
+      await event.reply("""السورس يعمل |خيال
 ╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
 
 
@@ -397,7 +397,7 @@ async def _(event):
 
 @sython.on(events.NewMessage(outgoing=True, pattern=".مطور"))
 async def _(event):
-      await event.reply("""حلم : @RRJRJ"""
+      await event.reply("""خيال : @TTxxxx"""
 )
 
 @sython.on(events.NewMessage(outgoing=True, pattern=".حلويات"))
