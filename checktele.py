@@ -166,7 +166,7 @@ def gen_user(choice):
             f = [c[0], c[0], "_", c[0], d[0]]
             random.shuffle(f)
             username = ''.join(f)
-                    else:
+        else:
             pass
     if choice == "10":
         c = d = random.choices(a)
