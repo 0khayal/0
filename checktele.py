@@ -5,7 +5,6 @@ import random
 
 import requests
 import telethon
-from fake_useragent import UserAgent
 from telethon.sync import functions
 
 from jmsource import jmsource
