@@ -108,7 +108,7 @@ def gen_user(choice):
     return username
 
 
-ferrari.ar_cmd(pattern="الصيد")
+@sython.on.ar_cmd(pattern="الصيد")
 async def _(event):
     await event.edit(
         """
@@ -137,7 +137,7 @@ async def _(event):
     )
 
 
-ferrari.ar_cmd(pattern="صيد (.*)")
+@sython.on.ar_cmd(pattern="صيد (.*)")
 async def hunterusername(event):
     choice = str(event.pattern_match.group(1))
     await event.edit(f"**- تم تفعيل الصيد بنجاح الان**")
@@ -221,7 +221,7 @@ async def hunterusername(event):
     isclaim.append("off")
 
 
-ferrari.ar_cmd(pattern="تثبيت (.*)")
+@sython.on.ar_cmd(pattern="تثبيت (.*)")
 async def _(event):
     msg = event.text.split()
     try:
@@ -303,7 +303,7 @@ async def _(event):
     isclaim.append("off")
 
 
-ferrari.ar_cmd(pattern="ايقاف الصيد")
+@sython.on.ar_cmd(pattern="ايقاف الصيد")
 async def _(event):
     if "on" in isclaim:
         isclaim.clear()
@@ -315,7 +315,7 @@ async def _(event):
         return await event.edit("**- لقد حدث خطأ ما وتوقف الامر لديك**")
 
 
-ferrari.ar_cmd(pattern="ايقاف التثبيت")
+@sython.on.ar_cmd(pattern="ايقاف التثبيت")
 async def _(event):
     if "on" in isauto:
         isauto.clear()
@@ -327,7 +327,7 @@ async def _(event):
         return await event.edit("**-لقد حدث خطأ ما وتوقف الامر لديك**")
 
 
-ferrari.ar_cmd(pattern="حالة الصيد")
+@sython.on.ar_cmd(pattern="حالة الصيد")
 async def _(event):
     if "on" in isclaim:
         await event.edit(f"**- الصيد وصل لـ({trys[0]}) **من المحاولات")
@@ -337,7 +337,7 @@ async def _(event):
         await event.edit("- لقد حدث خطأ ما وتوقف الامر لديك")
 
 
-@ferrari.ar_cmd(pattern="حالة التثبيت")
+@sython.on.ar_cmd(pattern="حالة التثبيت")
 async def _(event):
     if "on" in isauto:
         await event.edit(f"**- التثبيت وصل لـ({trys2[0]}) من المحاولات**")
