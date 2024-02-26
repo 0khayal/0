@@ -1,13 +1,17 @@
-# by: t.me/Dar4k  ~ t.me/R0R77
-
 import random
-
-import requests
+import threading
+import asyncio
 import telethon
-from fake_useragent import UserAgent
+from telethon import events
+from queue import Queue
+import requests
 from telethon.sync import functions
-
-from ferrari import ferrari
+from user_agent import generate_user_agent
+import requests
+from user_agent import *
+from help import *
+from config import *
+from threading import Thread
 
 a = "qwertyuiopassdfghjklzxcvbnm"
 b = "1234567890"
