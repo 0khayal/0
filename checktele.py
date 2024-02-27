@@ -107,36 +107,6 @@ def gen_user(choice):
         raise ValueError("Invalid choice for username generation.")
     return username
 
-
-@sython.on(events.NewMessage(outgoing=True, pattern=r"الصيد")
-   if ispay2[0] == "yes":
-    await event.edit(tele_checker)
-        """
-أوامر الصيد الخاصة بسورس جمثون : 
-
-ٴ— — — — — — — — — —
-
-النوع :(  سداسي حرفين/ ثلاثيات/ سداسيات/ بوتات/ خماسي حرفين/خماسي /سباعيات )
-
-الامر:  `.صيد` + النوع
-- يقوم بصيد معرفات عشوائية حسب النوع
-
-الامر:  `تثبيت` + معرف
-* وظيفة الامر : يقوم بالتثبيت على المعرف عندما يصبح متاح يأخذه
-
-ٴ— — — — — — — — — —
-الامر:   `.حالة الصيد`
-• لمعرفة عدد المحاولات للصيد
-
-الامر:  `.حالة التثبيت`
-• لمعرفة عدد المحاولات للصيد
-
-@jmthon  - channle userbot 
-
-"""
-    )
-
-
 @sython.on(events.NewMessage(outgoing=True, pattern=r"صيد (.*)")
 async def hunterusername(event):
     choice = str(event.pattern_match.group(1))
