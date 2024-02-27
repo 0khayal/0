@@ -1,17 +1,13 @@
+# by: t.me/Dar4k  ~ t.me/R0R77
+
 import random
-import threading
-import asyncio
+
+import requests
 import telethon
-from telethon import events
-from queue import Queue
-import requests
+from fake_useragent import UserAgent
 from telethon.sync import functions
-from user_agent import generate_user_agent
-import requests
-from user_agent import *
-from help import *
-from config import *
-from threading import Thread
+
+from ferrari import ferrari
 
 a = "qwertyuiopassdfghjklzxcvbnm"
 b = "1234567890"
@@ -107,7 +103,37 @@ def gen_user(choice):
         raise ValueError("Invalid choice for username generation.")
     return username
 
-@sython.on(events.NewMessage(outgoing=True, pattern=r"صيد (.*)")
+
+@ferrari.ar_cmd(pattern="الصيد")
+async def _(event):
+    await event.edit(
+        """
+أوامر الصيد الخاصة بسورس جمثون : 
+
+ٴ— — — — — — — — — —
+
+النوع :(  سداسي حرفين/ ثلاثيات/ سداسيات/ بوتات/ خماسي حرفين/خماسي /سباعيات )
+
+الامر:  `.صيد` + النوع
+- يقوم بصيد معرفات عشوائية حسب النوع
+
+الامر:  `تثبيت` + معرف
+* وظيفة الامر : يقوم بالتثبيت على المعرف عندما يصبح متاح يأخذه
+
+ٴ— — — — — — — — — —
+الامر:   `.حالة الصيد`
+• لمعرفة عدد المحاولات للصيد
+
+الامر:  `.حالة التثبيت`
+• لمعرفة عدد المحاولات للصيد
+
+@jmthon  - channle userbot 
+
+"""
+    )
+
+
+@ferrari.ar_cmd(pattern="صيد (.*)")
 async def hunterusername(event):
     choice = str(event.pattern_match.group(1))
     await event.edit(f"**- تم تفعيل الصيد بنجاح الان**")
@@ -191,7 +217,7 @@ async def hunterusername(event):
     isclaim.append("off")
 
 
-@sython.on(events.NewMessage(outgoing=True, pattern=r"تثبيت (.*)")
+@ferrari.ar_cmd(pattern="تثبيت (.*)")
 async def _(event):
     msg = event.text.split()
     try:
@@ -273,7 +299,7 @@ async def _(event):
     isclaim.append("off")
 
 
-@sython.on(events.NewMessage(outgoing=True, pattern=r"ايقاف الصيد")
+@ferrari.ar_cmd(pattern="ايقاف الصيد")
 async def _(event):
     if "on" in isclaim:
         isclaim.clear()
@@ -285,7 +311,7 @@ async def _(event):
         return await event.edit("**- لقد حدث خطأ ما وتوقف الامر لديك**")
 
 
-@sython.on(events.NewMessage(outgoing=True, pattern=r"ايقاف التثبيت")
+@ferrari.ar_cmd(pattern="ايقاف التثبيت")
 async def _(event):
     if "on" in isauto:
         isauto.clear()
@@ -297,7 +323,7 @@ async def _(event):
         return await event.edit("**-لقد حدث خطأ ما وتوقف الامر لديك**")
 
 
-@sython.on(events.NewMessage(outgoing=True, pattern=r"حالة الصيد")
+@ferrari.ar_cmd(pattern="حالة الصيد")
 async def _(event):
     if "on" in isclaim:
         await event.edit(f"**- الصيد وصل لـ({trys[0]}) **من المحاولات")
@@ -307,7 +333,7 @@ async def _(event):
         await event.edit("- لقد حدث خطأ ما وتوقف الامر لديك")
 
 
-@sython.on(events.NewMessage(outgoing=True, pattern=r"حالة التثبيت")
+@ferrari.ar_cmd(pattern="حالة التثبيت")
 async def _(event):
     if "on" in isauto:
         await event.edit(f"**- التثبيت وصل لـ({trys2[0]}) من المحاولات**")
