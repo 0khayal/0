@@ -109,7 +109,6 @@ def gen_user(choice):
 
 
 @sython.on(events.NewMessage(outgoing=True, pattern=r"الصيد")
-async def _(event):
    if ispay2[0] == "yes":
     await event.edit(tele_checker)
         """
