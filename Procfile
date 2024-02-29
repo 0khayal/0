@@ -1,1 +1,1 @@
-worker: python3 -m main
+worker: bash sython.py
