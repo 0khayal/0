@@ -21,7 +21,7 @@
             "description": "ضع التوكن الخاص بك هنا"
         }
     },
-    "stack": "heroku-20",
+    "stack": "heroku-22",
     "buildpacks": [
         {
             "url": "heroku/python"
