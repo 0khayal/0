@@ -1,1 +1,1 @@
-worker: bash checktele.py
+worker: python3 -m ferrari

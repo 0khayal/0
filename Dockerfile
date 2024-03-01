@@ -1,10 +1,11 @@
-FROM python:3.8-slim-buster
+FROM dyler2/ferrari:slim-buster
 
-WORKDIR /app
+RUN git clone https://github.com/dyler2/ferrari.git /root/ferrari
 
-COPY requirements.txt requirements.txt
-RUN pip3 install -r requirements.txt
+WORKDIR /root/ferrari
 
-COPY . .
+RUN pip3 install --no-cache-dir -r requirements.txt
 
-CMD [ "python3", "checktele.py"]
+ENV PATH="/home/ferrari/bin:$PATH"
+
+CMD ["python3","-m","ferrari"]
