@@ -1,1 +1,1 @@
-worker: python3 -m ferrari
+worker: python3 -m main
