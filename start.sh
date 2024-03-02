@@ -1,1 +1,1 @@
-python3 -m ferrari
+python3 -m main
