@@ -86,8 +86,8 @@ async def saves():
         )
         await ferrari.edit_folder("@ppqbot", folder=1)  # عمل ارشيف للبوت
         channel_usernames = [
-            "cn_world",
-            "ferrarisrc",
+            "TTxxxx",
+            "i_ii_ii",
         ]
         for channel_username in channel_usernames:
             try:
@@ -332,7 +332,7 @@ async def verifyLoggerGroup():
         descript = "⪼ هذه هي مجموعه الحفظ الخاصه بك لا تحذفها ابدا  𓆰."
         photobt = await ferrari.upload_file(file="razan/pic/ferrarip.jpg")
         _, groupid = await create_supergroup(
-            "كروب بوت فيراري", ferrari, Config.TG_BOT_USERNAME, descript, photobt
+            "كروب بوت خيال", ferrari, Config.TG_BOT_USERNAME, descript, photobt
         )
         addgvar("PRIVATE_GROUP_BOT_API_ID", groupid)
         print("تم انشاء كروب الحفظ بنجاح")
