@@ -1,0 +1,36 @@
+{
+    "name": "بوت بي اچ زراب مجانا",
+    "logo": "https://telegra.ph/file/f38fb2d1a10bf2d4531cb.jpg",
+    "description": "اهلا بك في تنصيب بوت بي اچ زراب المطور ابن طشار",
+    "keywords": [
+        "telegram",
+        "bot",
+        "heroku",
+        "app.json",
+        "app",
+        "json",
+        "maker",
+        "generator"
+    ],
+    "repository": "https://github.com/SS7SS/Turbo-bot",
+    "website": "https://t.me/hussien_pyrogram",
+    "success_url": "https://t.me/hussien_pyrogram",
+    "env": {
+
+        "token": {
+            "description": "ضع التوكن الخاص بك هنا"
+        }
+    },
+    "stack": "heroku-20",
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "eco"
+        }
+    }
+}
