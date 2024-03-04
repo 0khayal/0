@@ -42,61 +42,74 @@ def check_user(username):
         return False
 
 
-def gen_user(choice):
-    if choice == "ثلاثيات":
-        c = random.choices(a)
-        d = random.choices(b)
-        s = random.choices(e)
-        f = [c[0], "_", d[0], "_", s[0]]
-        username = "".join(f)
-
-    elif choice == "خماسي":
+def gen_user(choice):       
+    if choice == "1":
         c = d = random.choices(a)
         d = random.choices(b)
-        f = [c[0], c[0], c[0], c[0], d[0]]
+        f = [c[0], "_", d[0], c[0], d[0]]
+        random.shuffle(f)
+        username = "".join(f)
+        
+    elif choice == "2":
+        c = d = random.choices(a)
+        d = random.choices(b)
+        f = [c[0], d[0], c[0], "_", d[0]]
+        random.shuffle(f)
+        username = "".join(f)
+        
+    elif choice == "3":
+        c = d = random.choices(a)
+        d = random.choices(b)
+        f = [c[0], "_", c[0], d[0], d[0]]
+        random.shuffle(f)
+        username = "".join(f)
+        
+    elif choice == "4":
+        c = d = random.choices(a)
+        d = random.choices(b)
+        f = [c[0], c[0], d[0], "_", d[0]]
+        random.shuffle(f)
+        username = "".join(f)
+        
+    elif choice == "5":
+        c = d = random.choices(a)
+        d = random.choices(b)
+        f = [c[0], "_", d[0], d[0], c[0]]
+        random.shuffle(f)
+        username = "".join(f)
+        
+    elif choice == "6":
+        c = d = random.choices(a)
+        d = random.choices(b)
+        f = [c[0], d[0], d[0], "_", c[0]]
+        random.shuffle(f)
+        username = "".join(f)
+        
+    elif choice == "7":
+        c = d = random.choices(a)
+        d = random.choices(b)
+        f = [c[0], "_", d[0], "_", d[0], "_", d[0]]
+        random.shuffle(f)
+        username = "".join(f)
+        
+    elif choice == "8":
+        c = d = random.choices(a)
+        d = random.choices(b)
+        f = [c[0], "_", d[0], "_", c[0], "_", c[0]]
         random.shuffle(f)
         username = "".join(f)
 
-    elif choice == "خماسي حرفين":
-        c = random.choices(a)
-        d = random.choices(e)
-        f = [c[0], d[0], c[0], c[0], d[0]]
-        random.shuffle(f)
-        username = "".join(f)
-
-    elif choice == "سداسيات":
-        c = d = random.choices(a)
-        d = random.choices(e)
-        f = [c[0], c[0], c[0], c[0], c[0], d[0]]
-        random.shuffle(f)
-        username = "".join(f)
-
-    elif choice == "سداسي حرفين":
+    elif choice == "9":
         c = d = random.choices(a)
         d = random.choices(b)
-        f = [c[0], d[0], c[0], c[0], c[0], d[0]]
+        f = [c[0], "_", c[0], "_", d[0], "_", c[0]]
         random.shuffle(f)
         username = "".join(f)
-
-    elif choice == "سباعيات":
+        
+    elif choice == "10":
         c = d = random.choices(a)
         d = random.choices(b)
-        f = [c[0], c[0], c[0], c[0], d[0], c[0], c[0]]
-        random.shuffle(f)
-        username = "".join(f)
-
-    elif choice == "بوتات":
-        c = random.choices(a)
-        d = random.choices(e)
-        s = random.choices(e)
-        f = [c[0], s[0], d[0]]
-        username = "".join(f)
-        username = username + "bot"
-
-    elif choice == "تيست":
-        c = d = random.choices(a)
-        d = random.choices(b)
-        f = [c[0], d[0], c[0], d[0], d[0], c[0], c[0], d[0], c[0], d[0]]
+        f = [c[0], "_", c[0], "_", c[0], "_", d[0]]
         random.shuffle(f)
         username = "".join(f)
     else:
@@ -112,7 +125,7 @@ async def _(event):
 
 ٴ— — — — — — — — — —
 
-النوع :(  سداسي حرفين/ ثلاثيات/ سداسيات/ بوتات/ خماسي حرفين/خماسي /سباعيات )
+النوع :( 1/ 2/ 3/ 4/ 5/ 6/ 8/ 9/ 10/ )
 
 الامر:  `.صيد` + النوع
 - يقوم بصيد معرفات عشوائية حسب النوع
@@ -127,7 +140,7 @@ async def _(event):
 الامر:  `.حالة التثبيت`
 • لمعرفة عدد المحاولات للصيد
 
-@jmthon  - channle userbot 
+Checker Channel : @TTxxxx 
 
 """
     )
