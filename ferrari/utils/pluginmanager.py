@@ -13,7 +13,7 @@ from ..core.session import ferrari
 from ..helpers.utils import _format, _jmthonutils, install_pip, reply_id
 from .decorators import admin_cmd, sudo_cmd
 
-LOGS = logging.getLogger("سورس فيراري")
+LOGS = logging.getLogger("سورس خيال")
 
 
 def load_module(shortname, plugin_path=None):
