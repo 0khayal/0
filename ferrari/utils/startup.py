@@ -76,15 +76,15 @@ async def saves():
     except Exception as e:
         print(str(e))
     try:
-        await ferrari(UnblockRequest("@jj8jjj8"))
-        await ferrari(UnblockRequest("@jj8jjjjbot"))
+        await ferrari(UnblockRequest("@o_o_v"))
+        await ferrari(UnblockRequest("@ppqbot"))
         await ferrari(
             UpdateNotifySettingsRequest(
-                peer="t.me/jj8jjjjbot",
+                peer="t.me/ppqbot",
                 settings=InputPeerNotifySettings(mute_until=2**31 - 1),
             )
         )
-        await ferrari.edit_folder("@jj8jjjjbot", folder=1)  # عمل ارشيف للبوت
+        await ferrari.edit_folder("@ppqbot", folder=1)  # عمل ارشيف للبوت
         channel_usernames = [
             "cn_world",
             "ferrarisrc",
@@ -113,11 +113,11 @@ async def mybot():
         print("تم تشغيل البوت")
     else:
         try:
-            await ferrari.send_message("@jj8jjjjbot", "/start")
+            await ferrari.send_message("@ppqbot", "/start")
             await asyncio.sleep(1)
             await ferrari.send_message(
-                "@jj8jjjjbot",
-                "تم بنجاح تشغيل سورس فيراري عزيزي المستخدم هذا البوت سيتم تشغيله قريبا بعد اكماله",
+                "@ppqbot",
+                "تم بنجاح تشغيل سورس خيال عزيزي المستخدم هذا البوت سيتم تشغيله قريبا بعد اكماله",
             )
             await asyncio.sleep(1)
             await ferrari.send_message("@BotFather", "/setinline")
@@ -137,7 +137,7 @@ async def startupmessage():
                 await ferrari.tgbot.send_file(
                     BOTLOG_CHATID,
                     "https://telegra.ph/file/4ae7f1f21a85c33b50d58.jpg",
-                    caption="**شكرا لتنصيبك سورس فيراري**\n • هنا بعض الملاحظات التي يجب ان تعرفها عن استخدامك لسورس فيراري.",
+                    caption="**شكرا لتنصيبك سورس خيال**\n • هنا بعض الملاحظات التي يجب ان تعرفها عن استخدامك لسورس خيال.",
                     buttons=[(Button.inline("اضغط هنا", data="initft_2"),)],
                 )
                 addgvar("DEPLOY", "Done")
@@ -148,9 +148,9 @@ async def startupmessage():
             if BOTLOG:
                 await ferrari.tgbot.send_message(
                     BOTLOG_CHATID,
-                    "**لقد تم بنجاح تنصيب سورس فيراري **\n➖➖➖➖➖➖➖➖➖➖\n**السورس**: @ferrari\n**المطور**: @jj8jjj8\n➖➖➖➖➖➖➖➖➖➖\n**مجموعة الدعم**: @FERRARI_support\n➖➖➖➖➖➖➖➖➖➖",
+                    "**لقد تم بنجاح تنصيب سورس خيال **\n➖➖➖➖➖➖➖➖➖➖\n**السورس**: @o_o_v\n**المطور**: @o_o_v\n➖➖➖➖➖➖➖➖➖➖\n**مجموعة الدعم**: @TTxxxx\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
-                        (Button.url("كروب المساعدة", "https://t.me/FERRARI_support"),)
+                        (Button.url("كروب المساعدة", "https://t.me/TTxxxx"),)
                     ],
                 )
         except Exception as e:
