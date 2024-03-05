@@ -64,7 +64,7 @@ def gen_user(choice):
             f = [c[0], "_", d[0], "_", s[0]]
             username = ''.join(f)
 
-   elif choice == "2":
+    elif choice == "2":
         c = random.choices(a)
         d = random.choices(a)
         s = random.choices(e)
@@ -77,7 +77,7 @@ def gen_user(choice):
             f = [c[0], "_", d[0], "_", s[0]]
             username = ''.join(f)
 
-   elif choice == "3":
+    elif choice == "3":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], "_", d[0], d[0]]
@@ -90,7 +90,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "4":
+    elif choice == "4":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], "_", d[0], c[0]]
@@ -103,7 +103,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "5":
+    elif choice == "5":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], "_", c[0], d[0]]
@@ -116,7 +116,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "6":
+    elif choice == "6":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], "_", d[0], d[0]]
@@ -129,7 +129,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "7":
+    elif choice == "7":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], "_", c[0], c[0]]
@@ -142,7 +142,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "8":
+    elif choice == "8":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], "_", d[0], c[0]]
@@ -155,7 +155,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "9":
+    elif choice == "9":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], "_", c[0], d[0]]
@@ -168,7 +168,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "10":
+    elif choice == "10":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [d[0], "_", c[0], c[0], c[0]]
@@ -181,7 +181,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "11":
+    elif choice == "11":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], "_", d[0], c[0], c[0]]
@@ -194,7 +194,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "12":
+    elif choice == "12":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], "_", c[0], d[0], c[0]]
@@ -207,7 +207,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "13":
+    elif choice == "13":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], "_", c[0], c[0], d[0]]
@@ -220,7 +220,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "14":
+    elif choice == "14":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], c[0], "_", d[0]]
@@ -233,7 +233,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "15":
+    elif choice == "15":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], d[0], "_", d[0]]
@@ -246,7 +246,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "16":
+    elif choice == "16":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], d[0], "_", c[0]]
@@ -259,7 +259,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "17":
+    elif choice == "17":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], c[0], "_", c[0]]
@@ -272,7 +272,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "18":
+    elif choice == "18":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [d[0], c[0], c[0], "_", c[0]]
@@ -285,7 +285,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "19":
+    elif choice == "19":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], "_", d[0], c[0], d[0]]
@@ -298,7 +298,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "20":
+    elif choice == "20":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], c[0], "_", d[0]]
@@ -311,7 +311,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "21":
+    elif choice == "21":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], "_", c[0], d[0], d[0]]
@@ -324,7 +324,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "22":
+    elif choice == "22":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], d[0], "_", d[0]]
@@ -337,7 +337,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "23":
+    elif choice == "23":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], "_", d[0], d[0], c[0]]
@@ -350,7 +350,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "24":
+    elif choice == "24":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], d[0], "_", c[0]]
@@ -363,7 +363,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "25":
+    elif choice == "25":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], "_", d[0], "_", d[0], "_", d[0]]
@@ -376,7 +376,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "26":
+    elif choice == "26":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], "_", d[0], "_", c[0], "_", c[0]]
@@ -389,7 +389,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "27":
+    elif choice == "27":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], "_", c[0], "_", d[0], "_", c[0]]
@@ -402,7 +402,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "28":
+    elif choice == "28":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], "_", c[0], "_", c[0], "_", d[0]]
@@ -415,7 +415,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "29":
+    elif choice == "29":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], d[0], d[0], d[0], d[0]]
@@ -426,7 +426,7 @@ def gen_user(choice):
             f = [c[0], c[0], d[0], d[0], d[0], d[0]]
             username = ''.join(f)
 
-   elif choice == "30":
+    elif choice == "30":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], d[0], c[0], c[0], c[0]]
@@ -437,7 +437,7 @@ def gen_user(choice):
             f = [c[0], d[0], d[0], c[0], c[0], c[0]]
             username = ''.join(f)
 
-   elif choice == "31":
+    elif choice == "31":
         c = d = random.choices(a)
         d = random.choices(e)
         f =  [c[0], c[0], d[0], d[0], c[0], c[0]]
@@ -448,7 +448,7 @@ def gen_user(choice):
             f =  [c[0], c[0], d[0], d[0], c[0], c[0]]
             username = ''.join(f)
       
-   elif choice == "32":
+    elif choice == "32":
         c = d = random.choices(a)
         d = random.choices(e)
         f =  [c[0], c[0], c[0], d[0], d[0], c[0]]
@@ -461,7 +461,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "33":
+    elif choice == "33":
         c = d = random.choices(a)
         d = random.choices(e)
         f =  [c[0], c[0], c[0], c[0], d[0], d[0]]
@@ -474,7 +474,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "34":
+    elif choice == "34":
         c = d = random.choices(a)
         d = random.choices(e)
         f =  [c[0], c[0], c[0], d[0], d[0], d[0]]
@@ -485,7 +485,7 @@ def gen_user(choice):
             f =  [c[0], c[0], c[0], d[0], d[0], d[0]]
             username = ''.join(f)
 
-   elif choice == "35":
+    elif choice == "35":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], c[0], d[0], d[0], d[0]]
@@ -498,7 +498,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "36":
+    elif choice == "36":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], c[0], d[0], c[0], c[0]]
@@ -511,7 +511,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
   
-   elif choice == "37":
+    elif choice == "37":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], d[0], c[0], d[0], c[0]]
@@ -524,7 +524,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
            
-   elif choice == "38":
+    elif choice == "38":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], c[0], d[0], c[0], d[0]]
@@ -537,7 +537,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "39":
+    elif choice == "39":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], c[0], c[0], d[0], c[0]]
@@ -550,7 +550,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "40":
+    elif choice == "40":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], d[0], d[0], d[0], c[0]]
@@ -563,7 +563,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "41":
+    elif choice == "41":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], d[0], c[0], d[0], d[0]]
@@ -576,7 +576,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "42":
+    elif choice == "42":
         c = d = random.choices(a)
         d = random.choices(e)
         f =  [c[0], c[0], d[0], c[0], c[0], d[0]]
@@ -589,7 +589,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
             
-   elif choice == "43":
+    elif choice == "43":
         c = d = random.choices(a)
         d = random.choices(e)
         f =  [c[0], d[0], c[0], c[0], c[0], d[0]]
@@ -602,7 +602,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
             
-   elif choice == "44":
+    elif choice == "44":
         c = d = random.choices(a)
         d = random.choices(e)
         f =  [c[0], d[0], d[0], d[0], c[0], d[0]]
@@ -615,7 +615,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
             
-   elif choice == "45":
+    elif choice == "45":
         c = d = random.choices(a)
         d = random.choices(e)
         f =  [c[0], d[0], c[0], d[0], c[0], d[0]]
@@ -628,7 +628,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "46":
+    elif choice == "46":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], d[0], d[0], c[0], c[0]]
@@ -641,7 +641,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "47":
+    elif choice == "47":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], d[0], d[0], d[0], c[0]]
@@ -654,7 +654,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "48":
+    elif choice == "48":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], c[0], d[0], d[0], c[0]]
@@ -667,7 +667,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "49":
+    elif choice == "49":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], d[0], c[0], d[0], c[0]]
@@ -680,7 +680,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "50":
+    elif choice == "50":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], c[0], c[0], d[0], d[0]]
@@ -693,7 +693,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "51":
+    elif choice == "51":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], d[0], c[0], c[0], d[0]]
@@ -706,7 +706,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "52":
+    elif choice == "52":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], d[0], c[0], d[0], d[0]]
@@ -719,7 +719,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "53":
+    elif choice == "53":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], d[0], d[0], c[0], d[0]]
@@ -732,7 +732,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
                    
-   elif choice == "54":
+    elif choice == "54":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], d[0], d[0], d[0], d[0]]
@@ -745,7 +745,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "55":
+    elif choice == "55":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], c[0], c[0], c[0], c[0]]
@@ -758,7 +758,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "56":
+    elif choice == "56":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], d[0], c[0], c[0], c[0]]
@@ -771,7 +771,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "57":
+    elif choice == "57":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], c[0], d[0], c[0], c[0]]
@@ -784,7 +784,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "58":
+    elif choice == "58":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], c[0], c[0], d[0], c[0]]
@@ -797,7 +797,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
     
-   elif choice == "59":
+    elif choice == "59":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], c[0], c[0], c[0], d[0]]
@@ -810,7 +810,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
        
-   elif choice == "60":
+    elif choice == "60":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], d[0], d[0], d[0], d[0], d[0]]
@@ -823,7 +823,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "61":
+    elif choice == "61":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], c[0], c[0], c[0], c[0], c[0]]
@@ -836,7 +836,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "62":
+    elif choice == "62":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], d[0], c[0], c[0], c[0], c[0]]
@@ -849,7 +849,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "63":
+    elif choice == "63":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], c[0], d[0], c[0], c[0], c[0]]
@@ -862,7 +862,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "64":
+    elif choice == "64":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], c[0], c[0], d[0], c[0], c[0]]
@@ -875,7 +875,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "65":
+    elif choice == "65":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], c[0], c[0], c[0], d[0], c[0]]
@@ -888,7 +888,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
    
-   elif choice == "66":
+    elif choice == "66":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], c[0], c[0], c[0], c[0], d[0]]
@@ -901,7 +901,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "67":
+    elif choice == "67":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], d[0], d[0], d[0], d[0], d[0], d[0]]
@@ -914,7 +914,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "68":
+    elif choice == "68":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], c[0], c[0], c[0], c[0], c[0], c[0]]
@@ -927,7 +927,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "69":
+    elif choice == "69":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], d[0], c[0], c[0], c[0], c[0], c[0]]
@@ -940,7 +940,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
         
-   elif choice == "70":
+    elif choice == "70":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], c[0], d[0], c[0], c[0], c[0], c[0]]
@@ -953,7 +953,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "71":
+    elif choice == "71":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], c[0], c[0], d[0], c[0], c[0], c[0]]
@@ -966,7 +966,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "72":
+    elif choice == "72":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], c[0], c[0], c[0], d[0], c[0], c[0]]
@@ -979,7 +979,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-   elif choice == "73":
+    elif choice == "73":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], c[0], c[0], c[0], c[0], d[0], c[0]]
@@ -992,7 +992,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
  
-   elif choice == "74":
+    elif choice == "74":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], c[0], c[0], c[0], c[0], c[0], d[0]]
@@ -1005,7 +1005,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
  
-   elif choice == "75":
+    elif choice == "75":
         c = random.choices(a)
         d = random.choices(b)
         s = random.choices(e)
