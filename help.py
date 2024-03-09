@@ -89,34 +89,90 @@ tele_checker = '''
 **`-- -- -- -- -- -- -- -- --`
 '''
 tele_checker2 = '''**
--- -- -- -- -- -- -- -- --
- الانواع :
- ثلاثي
- -- -- -- -- - 
- سداسي حرفين
- -- -- -- -- -- -- -- -- -- -- --
-  سداسيات
- -- -- -- -- -- 
-  بوتات
- -- -- -- -- --
- خماسي
- -- -- -- -- -- 
- خماسي حرفين
- -- -- -- -- -- 
- سباعيات
- -- -- -- -- -- 
-   طريقه الصيد هيه كالتالي
- - .صيد + نوع الصيد تكتب الاسم 
-هوه ينشأ قناة تلقائي ويفحص بيها
- -- -- -- -- -- -- -- -- -- -- -- -- --  -- -- -- -- -- -- -- -- -- -- -- 
-مثال: .صيد ثلاثي
- ---------------------------------------------------------------------- — — — —
- الامر:  `.صيد` + النوع
- - يقوم بصيد معرفات عشوائية حسب النوع
- ٴ— — — — — — — — — —
- الامر:   `.حالة الصيد`
- • لمعرفة عدد المحاولات للصيد
-@eighthon **
+1 : c_1_2
+2 : c_1_s / 3 : c_d_s
+4 : cc_11 / 5 : cc_dd
+6 : c1_1c / 7 : cd_dc
+8 : c1_c1 / 9 : cd_cd
+10 : c1_11 / 11 : cd_dd
+12 : c1_cc / 13 : cd_cc
+14 : cc_1c / 15 : cc_dc
+16 : cc_c1 / 17 : cc_cd
+
+ 18 : d_111 / 19 : d_ccc
+ 20 : c_1cc / 21 : c_dcc
+ 22 : c_c1c / 23 : c_cdc
+ 24 : c_cc1 / 25 : c_ccd
+ 26 : ccc_1 / 27 : ccc_d
+ 28 : c11_1 / 29 : cdd_d
+ 30 : cc1_c / 31 : ccd_c
+ 32 : c1c_c / 33 : cdc_c
+ 34 : d11_1 / 35 : dcc_c
+ 36 : c_1c1 / 37 : c_dcd
+ 38 : c1c_1 / 39 : cdc_d
+ 40 : c_c11 / 41 : c_cdd
+ 42 : cc1_1 / 43 : ccd_d
+ 44 : c_11c / 45 : c_ddc
+ 46 : c11_c / 47 : cdd_c
+
+48 : c_1_1_1 / 49 : c_d_d_d
+50 : c_1_c_c / 51 : c_d_c_c
+52 : c_c_1_c / 53 : c_c_d_c
+54 : c_c_c_1 / 55 : c_c_c_d
+
+56 : cc1111 / 57 : ccdddd
+58 : c11ccc / 59 : cddccc
+60 : cc11cc / 61 : ccddcc
+62 : ccc11c / 63 : cccddc
+64 : cccc11 / 65 : ccccdd
+66 : ccc111 / 67 : cccddd
+68 : c1c111 / 69 : cdcddd
+70 : c1c1cc / 71 : cdcdcc
+72 : cc1c1c / 73 : ccdcdc
+74 : ccc1c1 / 75 : cccdcd
+76 : c1cc1c / 77 : cdccdc
+78 : c1111c / 79 : cddddc
+  
+80 : c11c11 / 81 : cddcdd
+82 : cc1cc1 / 83 : ccdccd
+84 : c1ccc1 / 85 : cdcccd
+86 : c111c1 / 87 : cdddcd
+88 : c1c1c1 / 89 : cdcdcd
+90 : c111cc / 91 : cdddcc
+92 : cc111c / 93 : ccdddc
+94 : c1c11c / 95 : cdcddc
+96 : c11c1c / 97 : cddcdc
+98 : c1cc11 / 99 : cdccdd
+
+100 : c11cc1 / 101 : cddccd
+102 : cc1c11 / 103 : ccdcdd
+104 : cc11c1 / 105 : ccddcd
+
+106 : c11111 / 107 : cddddd
+108 : c1cccc / 109 : cdcccc
+110 : cc1ccc / 111 : ccdccc
+112 : ccc1cc / 113 : cccdcc
+114 : cccc1c / 115 : ccccdc
+116 : ccccc1 / 117 : cccccd
+
+118 : c111111 / 119 : cdddddd
+120 : c1ccccc / 121 : cdccccc
+122 : cc1cccc / 123 : ccdcccc
+124 : ccc1ccc / 125 : cccdccc
+126 : cccc1cc / 127 : ccccdcc
+128 : ccccc1c / 129 : cccccdc
+130 : cccccc1 / 131 : ccccccd
+
+132 : c1111111 / 133 : cddddddd
+134 : c1cccccc / 135 : cdcccccc
+136 : cc1ccccc / 137 : ccdccccc
+138 : ccc1cccc / 139 : cccdcccc
+140 : cccc1ccc / 141 : ccccdccc
+142 : ccccc1cc / 143 : cccccdcc
+144 : cccccc1c / 145 : ccccccdc
+146 : ccccccc1 / 147 : cccccccd
+
+148 : csdbot**
 '''
 t06bot = '''
 `-- -- -- -- -- -- -- -- --`**
