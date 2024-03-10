@@ -48,7 +48,7 @@ def check_user(username):
         return False
 
 
-def gen_user(choice):
+     def gen_user(choice):
       if choice == "1":
         c = random.choices(a)
         d = random.choices(b)
@@ -56,14 +56,14 @@ def gen_user(choice):
         f = [c[0], "_", d[0], "_", s[0]]
         username = ''.join(f)
 
-      if choice == "2":
+    elif choice == "2":
         c = random.choices(a)
         d = random.choices(b)
         s = random.choices(b)
         f = [c[0], "_", d[0], "_", s[0]]
         username = ''.join(f)
 
-      if choice == "3":
+    elif choice == "3":
         c = random.choices(a)
         d = random.choices(e)
         s = random.choices(e)
