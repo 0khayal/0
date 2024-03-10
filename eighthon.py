@@ -438,11 +438,13 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-**☆ Welcome to Source Eighthon
-☆ Version : 1.5
-☆ Ping : `{ms}`
-☆ ID : `{event.sender_id}`
-☆ Source Eighthon : @Eighthon**
+**‌‎‌‎⿻︙WELCOME TO
+‌‎‌‎⿻︙VERSION : 1.5
+‌‎‌‎⿻︙PING : `{ms}`
+‌‎‌‎⿻︙DATE : `{m9zpi}`
+‌‎‌‎⿻︙ID : `{event.sender_id}`
+‌‎‌‎⿻︙SOURCE KHAYAL
+‌‎‌‎⿻︙DEV : @O_O_V**
 ''')
 
 
@@ -530,10 +532,10 @@ async def _(event):
 
 @eighthon.on(events.NewMessage(outgoing=True, pattern=r"\.اعادة تشغيل"))
 async def update(event):
-    await event.edit("• جارِ اعادة تشغيل السورس ..\n• انتضر 1-2 دقيقة  .")
+    await event.edit("• جارِ اعادة تشغيل السورس ..\n• انتظر 1-2 دقيقة  .")
     await eighthon.disconnect()
     await eighthon.send_message("me", "`اكتملت اعادة تشغيل السورس !`")
 
 
-print("- سورس ايت ثون يعمل بنجــاح ..")
+print("- سورس خيال يعمل بنجاح ..")
 eighthon.run_until_disconnected()
