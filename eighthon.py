@@ -441,7 +441,6 @@ async def _(event):
 **‌‎‌‎⿻︙WELCOME TO
 ‌‎‌‎⿻︙VERSION : 1.5
 ‌‎‌‎⿻︙PING : `{ms}`
-‌‎‌‎⿻︙DATE : `{m9zpi}`
 ‌‎‌‎⿻︙ID : `{event.sender_id}`
 ‌‎‌‎⿻︙SOURCE KHAYAL
 ‌‎‌‎⿻︙DEV : @O_O_V**
