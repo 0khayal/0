@@ -63,1022 +63,1022 @@ def gen_user(choice):
         f = [c[0], "_", d[0], "_", s[0]]
         username = ''.join(f)
 
-   elif choice == "3":
+  elif choice == "3":
         c = random.choices(a)
         d = random.choices(e)
         s = random.choices(e)
         f = [c[0], "_", d[0], "_", s[0]]
         username = ''.join(f)
 
-   elif choice == "4":
+  elif choice == "4":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], c[0], "_", d[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
 
-   elif choice == "5":
+  elif choice == "5":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], "_", d[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "6":
+  elif choice == "6":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], d[0], "_", d[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "7":
+  elif choice == "7":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], "_", d[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "8":
+  elif choice == "8":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], d[0], "_", c[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "9":
+  elif choice == "9":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], "_", c[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "10":
+  elif choice == "10":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], d[0], "_", d[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "11":
+  elif choice == "11":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], "_", d[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "12":
+  elif choice == "12":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], d[0], "_", c[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "13":
+  elif choice == "13":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], "_", c[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "14":
+  elif choice == "14":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], c[0], "_", d[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "15":
+  elif choice == "15":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], "_", d[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "16":
+  elif choice == "16":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], c[0], "_", c[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "17":
+  elif choice == "17":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], "_", c[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "18":
+  elif choice == "18":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [d[0], "_", c[0], c[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
    
-   elif choice == "19":
+  elif choice == "19":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [d[0], "_", c[0], c[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "20":
+  elif choice == "20":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], "_", d[0], c[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "21":
+  elif choice == "21":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], "_", d[0], c[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "22":
+  elif choice == "22":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], "_", c[0], d[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "23":
+  elif choice == "23":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], "_", c[0], d[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "24":
+  elif choice == "24":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], "_", c[0], c[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "25":
+  elif choice == "25":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], "_", c[0], c[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "26":
+  elif choice == "26":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], c[0], c[0], "_", d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "27":
+  elif choice == "27":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], c[0], "_", d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "28":
+  elif choice == "28":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], d[0], d[0], "_", d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "29":
+  elif choice == "29":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], d[0], "_", d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "30":
+  elif choice == "30":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], c[0], d[0], "_", c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "31":
+  elif choice == "31":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], d[0], "_", c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "32":
+  elif choice == "32":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], d[0], c[0], "_", c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "33":
+  elif choice == "33":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], c[0], "_", c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "34":
+  elif choice == "34":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [d[0], c[0], c[0], "_", c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "35":
+  elif choice == "35":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [d[0], c[0], c[0], "_", c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "36":
+  elif choice == "36":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], "_", d[0], c[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "37":
+  elif choice == "37":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], "_", d[0], c[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "38":
+  elif choice == "38":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], d[0], c[0], "_", d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "39":
+  elif choice == "39":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], c[0], "_", d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "40":
+  elif choice == "40":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], "_", c[0], d[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "41":
+  elif choice == "41":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], "_", c[0], d[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "42":
+  elif choice == "42":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], c[0], d[0], "_", d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "43":
+  elif choice == "43":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], d[0], "_", d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "44":
+  elif choice == "44":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], "_", d[0], d[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "45":
+  elif choice == "45":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], "_", d[0], d[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "46":
+  elif choice == "46":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], d[0], d[0], "_", c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "47":
+  elif choice == "47":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], d[0], "_", c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "48":
+  elif choice == "48":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], "_", d[0], "_", d[0], "_", d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "49":
+  elif choice == "49":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], "_", d[0], "_", d[0], "_", d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "50":
+  elif choice == "50":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], "_", d[0], "_", c[0], "_", c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "51":
+  elif choice == "51":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], "_", d[0], "_", c[0], "_", c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "52":
+  elif choice == "52":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], "_", c[0], "_", d[0], "_", c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "53":
+  elif choice == "53":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], "_", c[0], "_", d[0], "_", c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "54":
+  elif choice == "54":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], "_", c[0], "_", c[0], "_", d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "55":
+  elif choice == "55":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], "_", c[0], "_", c[0], "_", d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "56":
+  elif choice == "56":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], c[0], d[0], d[0], d[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "57":
+  elif choice == "57":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], d[0], d[0], d[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "58":
+  elif choice == "58":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], d[0], d[0], c[0], c[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "59":
+  elif choice == "59":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], d[0], c[0], c[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "60":
+  elif choice == "60":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], c[0], d[0], d[0], c[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "61":
+  elif choice == "61":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], d[0], d[0], c[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "62":
+  elif choice == "62":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], c[0], c[0], d[0], d[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "63":
+  elif choice == "63":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], c[0], d[0], d[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "64":
+  elif choice == "64":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], c[0], c[0], c[0], d[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "65":
+  elif choice == "65":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], c[0], c[0], d[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "66":
+  elif choice == "66":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], c[0], c[0], d[0], d[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "67":
+  elif choice == "67":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], c[0], d[0], d[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "68":
+  elif choice == "68":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], d[0], c[0], d[0], d[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "69":
+  elif choice == "69":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], c[0], d[0], d[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "70":
+  elif choice == "70":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], d[0], c[0], d[0], c[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "71":
+  elif choice == "71":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], c[0], d[0], c[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "72":
+  elif choice == "72":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], c[0], d[0], c[0], d[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "73":
+  elif choice == "73":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], d[0], c[0], d[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "74":
+  elif choice == "74":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], c[0], c[0], d[0], c[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "75":
+  elif choice == "75":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], c[0], d[0], c[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "76":
+  elif choice == "76":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], d[0], c[0], c[0], d[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "77":
+  elif choice == "77":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], c[0], c[0], d[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "78":
+  elif choice == "78":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], d[0], d[0], d[0], d[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "79":
+  elif choice == "79":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], d[0], d[0], d[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "80":
+  elif choice == "80":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], d[0], d[0], c[0], d[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "81":
+  elif choice == "81":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], d[0], c[0], d[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "82":
+  elif choice == "82":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], c[0], d[0], c[0], c[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "83":
+  elif choice == "83":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], d[0], c[0], c[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "84":
+  elif choice == "84":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], d[0], c[0], c[0], c[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "85":
+  elif choice == "85":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], c[0], c[0], c[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "86":
+  elif choice == "86":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], d[0], d[0], d[0], c[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "87":
+  elif choice == "87":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], d[0], d[0], c[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "88":
+  elif choice == "88":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], d[0], c[0], d[0], c[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "89":
+  elif choice == "89":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], c[0], d[0], c[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "90":
+  elif choice == "90":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], d[0], d[0], d[0], c[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "91":
+  elif choice == "91":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], d[0], d[0], c[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "92":
+  elif choice == "92":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], c[0], d[0], d[0], d[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "93":
+  elif choice == "93":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], d[0], d[0], d[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "94":
+  elif choice == "94":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], d[0], c[0], d[0], d[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "95":
+  elif choice == "95":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], c[0], d[0], d[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "96":
+  elif choice == "96":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], d[0], d[0], c[0], d[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "97":
+  elif choice == "97":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], d[0], c[0], d[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "98":
+  elif choice == "98":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], d[0], c[0], c[0], d[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "99":
+  elif choice == "99":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], c[0], c[0], d[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "100":
+  elif choice == "100":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], d[0], d[0], c[0], c[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "101":
+  elif choice == "101":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], d[0], c[0], c[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "102":
+  elif choice == "102":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], c[0], d[0], c[0], d[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "103":
+  elif choice == "103":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], d[0], c[0], d[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "104":
+  elif choice == "104":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], c[0], d[0], d[0], c[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "105":
+  elif choice == "105":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], d[0], d[0], c[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "106":
+  elif choice == "106":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], d[0], d[0], d[0], d[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "107":
+  elif choice == "107":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], d[0], d[0], d[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "108":
+  elif choice == "108":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], d[0], c[0], c[0], c[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "109":
+  elif choice == "109":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], c[0], c[0], c[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "110":
+  elif choice == "110":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], c[0], d[0], c[0], c[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "111":
+  elif choice == "111":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], d[0], c[0], c[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "112":
+  elif choice == "112":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], c[0], c[0], d[0], c[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "113":
+  elif choice == "113":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], c[0], d[0], c[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "114":
+  elif choice == "114":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], c[0], c[0], c[0], d[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "115":
+  elif choice == "115":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], c[0], c[0], d[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "116":
+  elif choice == "116":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], c[0], c[0], c[0], c[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "117":
+  elif choice == "117":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], c[0], c[0], c[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "118":
+  elif choice == "118":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], d[0], d[0], d[0], d[0], d[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "119":
+  elif choice == "119":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], d[0], d[0], d[0], d[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "120":
+  elif choice == "120":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], d[0], c[0], c[0], c[0], c[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "121":
+  elif choice == "121":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], c[0], c[0], c[0], c[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "122":
+  elif choice == "122":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], c[0], d[0], c[0], c[0], c[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "123":
+  elif choice == "123":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], d[0], c[0], c[0], c[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "124":
+  elif choice == "124":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], c[0], c[0], d[0], c[0], c[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "125":
+  elif choice == "125":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], c[0], d[0], c[0], c[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "126":
+  elif choice == "126":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], c[0], c[0], c[0], d[0], c[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
    
-   elif choice == "127":
+  elif choice == "127":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], c[0], c[0], d[0], c[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "128":
+  elif choice == "128":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], c[0], c[0], c[0], c[0], d[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "129":
+  elif choice == "129":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], c[0], c[0], c[0], d[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "130":
+  elif choice == "130":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], c[0], c[0], c[0], c[0], c[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "131":
+  elif choice == "131":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], c[0], c[0], c[0], c[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "132":
+  elif choice == "132":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], d[0], d[0], d[0], d[0], d[0], d[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "133":
+  elif choice == "133":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], d[0], d[0], d[0], d[0], d[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "134":
+  elif choice == "134":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], d[0], c[0], c[0], c[0], c[0], c[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "135":
+  elif choice == "135":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], c[0], c[0], c[0], c[0], c[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "136":
+  elif choice == "136":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], c[0], d[0], c[0], c[0], c[0], c[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "137":
+  elif choice == "137":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], d[0], c[0], c[0], c[0], c[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "138":
+  elif choice == "138":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], c[0], c[0], d[0], c[0], c[0], c[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "139":
+  elif choice == "139":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], c[0], d[0], c[0], c[0], c[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "140":
+  elif choice == "140":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], c[0], c[0], c[0], d[0], c[0], c[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "141":
+  elif choice == "141":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], c[0], c[0], d[0], c[0], c[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "142":
+  elif choice == "142":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], c[0], c[0], c[0], c[0], d[0], c[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "143":
+  elif choice == "143":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], c[0], c[0], c[0], d[0], c[0], c[0]]
         random.shuffle(f)
         username = "".join(f)        
 
-   elif choice == "144":
+  elif choice == "144":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], c[0], c[0], c[0], c[0], c[0], d[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "145":
+  elif choice == "145":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], c[0], c[0], c[0], c[0], d[0], c[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "146":
+  elif choice == "146":
         c = d = random.choices(a)
         d = random.choices(b)
         f = [c[0], c[0], c[0], c[0], c[0], c[0], c[0], d[0]]
         random.shuffle(f)
         username = "".join(f)       
 
-   elif choice == "147":
+  elif choice == "147":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], c[0], c[0], c[0], c[0], c[0], d[0]]
         random.shuffle(f)
         username = "".join(f)
         
-   elif choice == "148":
+  elif choice == "148":
         c = random.choices(a)
         d = random.choices(b)
         s = random.choices(e)
