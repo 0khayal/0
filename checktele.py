@@ -56,7 +56,7 @@ def gen_user(choice):
         f = [c[0], "_", d[0], "_", s[0]]
         username = ''.join(f)
 
-    elif choice == "2":
+      if choice == "2":
         c = random.choices(a)
         d = random.choices(b)
         s = random.choices(b)
