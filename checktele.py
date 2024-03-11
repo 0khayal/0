@@ -1204,8 +1204,7 @@ async def hunterusername(event):
             ch = await eighthon(
                 functions.channels.CreateChannelRequest(
                     title="CHECKER KHAYAL",
-                    about="username was fished
-by: @o_o_v - @ppqbot",
+                    about="username was fished/n/nby: @o_o_v - @ppqbot",
                 )
             )
             ch = ch.updates[1].channel_id
