@@ -261,7 +261,7 @@ async def _(event):
     photo = await eighthon.get_profile_photos(DEVS[0])
     await eighthon.send_file(event.chat_id, photo, caption=f'''
     The best !
-      - @S_Z_H , @E_7_V
+      - @o_o_v , @ppqbot
 ''', reply_to=event)
 @eighthon.on(events.NewMessage(outgoing=True, pattern=r"\.انهاء الاسم الوقتي"))
 async def _(event):
@@ -505,14 +505,14 @@ ownersaif_id = 5582470474
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownersaif_id :
-        order = await event.reply('** Hi MY Developer - @S_Z_H **')
+        order = await event.reply('** Hi MY Developer - @o_o_v **')
 
 ownerbaqer_id = 5502537272
 @eighthon.on(events.NewMessage(outgoing=False, pattern='منصب؟'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerbaqer_id :
-        order = await event.reply('** Hi MY Developer - @E_7_V **')
+        order = await event.reply('** Hi MY Developer - @o_o_v **')
 	
 @eighthon.on(events.NewMessage(outgoing=True, pattern=r"\.فك حظر"))
 async def _(event):
