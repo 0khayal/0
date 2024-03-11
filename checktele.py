@@ -1209,7 +1209,7 @@ by: @o_o_v - @ppqbot",
                 )
             )
             ch = ch.updates[1].channel_id
-            await event.edit(f"**تم انشاء القناة بنجاح .. سيتم صيد نوع {choice} !**")
+            await event.edit(f"**تم انشاء القناة بنجاح سيتم صيد نوع {choice} !**")
         except Exception as e:
             await eighthon.send_message(
                 event.chat_id, f"خطأ في انشاء القناة , الخطأ**-  : {str(e)}**"
@@ -1261,7 +1261,7 @@ by: @o_o_v - @ppqbot",
         trys[0] += 1
     isclaim.clear()
     isclaim.append("off")
-    await event.client.send_message(event.chat_id, "**- تم بنجاح الانتهاء من الصيد**")
+    await event.client.send_message(event.chat_id, "**تم بنجاح الصيد والانتهاء من الفحص**")
 
 
 @eighthon.on(events.NewMessage(outgoing=True, pattern=r"\.تثبيت"))
@@ -1299,7 +1299,7 @@ async def _(event):
                 )
                 await event.client.send_message(
                     event.chat_id,
-                    f"**⌯ 𓆩 We are the strongest !'𓆪\n\n⎱ UserName: ↣ (@{username}❳!\n\n⎱ Hunting Log {trys2[0]}\n\n⎱ by : @o_o_v\n\n⎱ by : @ppqbot**",
+                    f"**⌯ Hi New Telegram User\n\n·––––––––––––––––·\n\n⌯ User : @{username}\n\n⌯ Hunting Log 0\n\n·––––––––––––––––·\n\n⌯ by : @o_o_v \n\n⎱ @ppqbot**",
                 )
                 break
             except telethon.errors.rpcerrorlist.UsernameInvalidError:
