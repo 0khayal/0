@@ -1095,7 +1095,8 @@ def gen_user(choice):
 async def _(event):
     await event.edit(
         '''
-**2 : c_1_s / 3 : c_d_s
+**1 : c_1_2
+2 : c_1_s / 3 : c_d_s
 4 : cc_11 / 5 : cc_dd
 6 : c1_1c / 7 : cd_dc
 8 : c1_c1 / 9 : cd_cd
@@ -1203,7 +1204,8 @@ async def hunterusername(event):
             ch = await eighthon(
                 functions.channels.CreateChannelRequest(
                     title="CHECKER KHAYAL",
-                    about="username was fished by : @o_o_v - @ppqbot",
+                    about="username was fished
+by: @o_o_v - @ppqbot",
                 )
             )
             ch = ch.updates[1].channel_id
@@ -1229,7 +1231,7 @@ async def hunterusername(event):
                 )
                 await event.client.send_message(
                     event.chat_id,
-                    f"**⌯ 𓆩 We are the strongest !'𓆪\n\n⎱ UserName: ↣ (@{username}❳!\n\n⎱ Hunting Log {trys2[0]}\n\n⎱ by : @S_Z_H\n\n⎱ by : @E_7_V**",
+                    f"**⌯ 𓆩 We are the strongest !'𓆪\n\n⎱ UserName: ↣ (@{username}❳!\n\n⎱ Hunting Log {trys2[0]}\n\n⎱ by : @o_o_v\n\n⎱ by : @ppqbot**",
                 )
                 break
             except telethon.errors.rpcerrorlist.UsernameInvalidError:
@@ -1297,7 +1299,7 @@ async def _(event):
                 )
                 await event.client.send_message(
                     event.chat_id,
-                    f"**⌯ 𓆩 We are the strongest !'𓆪\n\n⎱ UserName: ↣ (@{username}❳!\n\n⎱ Hunting Log {trys2[0]}\n\n⎱ by : @S_Z_H\n\n⎱ by : @E_7_V**",
+                    f"**⌯ 𓆩 We are the strongest !'𓆪\n\n⎱ UserName: ↣ (@{username}❳!\n\n⎱ Hunting Log {trys2[0]}\n\n⎱ by : @o_o_v\n\n⎱ by : @ppqbot**",
                 )
                 break
             except telethon.errors.rpcerrorlist.UsernameInvalidError:
@@ -1382,9 +1384,9 @@ async def _(event):
 
 ⎱ UserName: ↣ (@{username}❳!
 
-⎱ by : @S_Z_H
+⎱ by : @o_o_v
 
-⎱ by : @E_7_V **
+⎱ by : @ppqbot **
     ''')
                         break
                     except telethon.errors.rpcerrorlist.UsernameInvalidError:
@@ -1419,9 +1421,9 @@ async def _(event):
 
 ⎱ UserName: ↣ (@{username}❳!
 
-⎱ by : @S_Z_H
+⎱ by : @o_o_v
 
-⎱ by : @E_7_V
+⎱ by : @ppqbot
 -- -- -- -- -- -- -- -- -- -- -- -- -- **
     ''')
             except telethon.errors.rpcerrorlist.UsernameInvalidError:
