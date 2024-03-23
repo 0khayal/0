@@ -108,6 +108,7 @@ tele_checker2 = '''**
 .صيد 16 : ccd_c 
 .صيد 17 : cdc_c 
 .صيد 18 : dcc_c 
+
 .صيد 19 : c_dcd 
 .صيد 20 : cdc_d 
 .صيد 21 : c_cdd 
@@ -130,48 +131,34 @@ tele_checker2 = '''**
 .صيد 36 : cdcdcc 
 .صيد 37 : ccdcdc 
 .صيد 38 : cccdcd 
+
 .صيد 39 : cdccdc 
 .صيد 40 : cddddc 
-  
 .صيد 41 : cddcdd 
 .صيد 42 : ccdccd 
 .صيد 43 : cdcccd 
 .صيد 44 : cdddcd 
+
 .صيد 45 : cdcdcd 
 .صيد 46 : cdddcc 
 .صيد 47 : ccdddc 
 .صيد 48 : cdcddc 
 .صيد 49 : cddcdc 
 .صيد 50 : cdccdd 
-
 .صيد 51 : cddccd 
 .صيد 52 : ccdcdd 
 .صيد 53 : ccddcd 
-.صيد 54 : cddddd 
-.صيد 55 : cdcccc 
-.صيد 56 : ccdccc 
-.صيد 57 : cccdcc 
-.صيد 58 : ccccdc 
-.صيد 59 : cccccd  
 
-.صيد 60 : cdddddd 
-.صيد 61 : cdccccc 
-.صيد 62 : ccdcccc 
-.صيد 63 : cccdccc 
-.صيد 64 : ccccdcc 
-.صيد 65 : cccccdc 
-.صيد 66 : ccccccd 
+.صيد 54 : cddddddd 
+.صيد 55 : cdcccccc 
+.صيد 56 : ccdccccc 
+.صيد 57 : cccdcccc 
+.صيد 58 : ccccdccc 
+.صيد 59 : cccccdcc 
+.صيد 60 : ccccccdc 
+.صيد 61 : cccccccd 
 
-.صيد 67 : cddddddd 
-.صيد 68 : cdcccccc 
-.صيد 69 : ccdccccc 
-.صيد 70 : cccdcccc 
-.صيد 71 : ccccdccc 
-.صيد 72 : cccccdcc 
-.صيد 73 : ccccccdc 
-.صيد 74 : cccccccd 
-
-.صيد 75 : csdbot**
+.صيد 62 : csdbot**
 '''
 t06bot = '''
 `-- -- -- -- -- -- -- -- --`**
