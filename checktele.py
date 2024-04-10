@@ -980,7 +980,7 @@ async def hunterusername(event):
                 )
                 await event.client.send_message(
                     event.chat_id,
-                    f"**⌯ Hi New Telegram User\n\n⎱ UserName: ↣ (@{username})\n\n⌯ Hunting Log {trys2[0]}\n\n⌯ by : @o_o_v\n\n⎱ by : @ppqbot**",
+                    f"**⌯ Hi New Telegram User\n\n⌯ UserName: ↣ (@{username})\n\n⌯ Hunting Log {trys2[0]}\n\n⌯ by : @o_o_v\n\n⌯ by : @ppqbot**",
                 )
                 break
             except telethon.errors.rpcerrorlist.UsernameInvalidError:
