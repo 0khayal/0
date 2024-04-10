@@ -953,8 +953,8 @@ async def hunterusername(event):
         try:
             ch = await eighthon(
                 functions.channels.CreateChannelRequest(
-                    title="CHECKER KHAYAL",
-                    about="by: @o_o_v - @ppqbot",
+                    title="Checker",
+                    about="< We Are The Strongest >",
                 )
             )
             ch = ch.updates[1].channel_id
@@ -980,7 +980,7 @@ async def hunterusername(event):
                 )
                 await event.client.send_message(
                     event.chat_id,
-                    f"**⌯ 𓆩 We are the strongest !'𓆪\n\n⎱ UserName: ↣ (@{username}❳!\n\n⎱ Hunting Log {trys2[0]}\n\n⎱ by : @o_o_v\n\n⎱ by : @ppqbot**",
+                    f"**⌯ Hi New Telegram User\n\n⎱ UserName: ↣ (@{username})\n\n⌯ Hunting Log {trys2[0]}\n\n⌯ by : @o_o_v\n\n⎱ by : @ppqbot**",
                 )
                 break
             except telethon.errors.rpcerrorlist.UsernameInvalidError:
@@ -1023,8 +1023,8 @@ async def _(event):
         try:
             ch = await eighthon(
                 functions.channels.CreateChannelRequest(
-                    title="CHECKER KHAYAL",
-                    about="username was fished by : @o_o_v - @ppqbot",
+                    title="Checker",
+                    about="< We Are The Strongest >",
                 )
             )
             ch = ch.updates[1].channel_id
@@ -1129,13 +1129,11 @@ async def _(event):
                         await eighthon(functions.channels.UpdateUsernameRequest(
                             channel=ch, username=username))
                         await event.client.send_message(event.chat_id, f'''** 
-⌯ We are the strongest !'
+⌯ Hi New Telegram User
 
-⎱ UserName: ↣ (@{username}❳!
+⌯ UserName: - (@{username})
 
-⎱ by : @o_o_v
-
-⎱ by : @ppqbot **
+⌯ by : @o_o_v ⎱ by : @ppqbot **
     ''')
                         break
                     except telethon.errors.rpcerrorlist.UsernameInvalidError:
@@ -1166,13 +1164,11 @@ async def _(event):
                 await eighthon(functions.channels.UpdateUsernameRequest(
                     channel=ch, username=username))
                 await event.client.send_message(event.chat_id, f'''**
-⌯ We are the strongest !'
+⌯ Hi New Telegram User
 
-⎱ UserName: ↣ (@{username}❳!
+⌯ UserName: - (@{username})
 
-⎱ by : @o_o_v
-
-⎱ by : @ppqbot
+⌯ by : @o_o_v ⎱ by : @ppqbot
 -- -- -- -- -- -- -- -- -- -- -- -- -- **
     ''')
             except telethon.errors.rpcerrorlist.UsernameInvalidError:
