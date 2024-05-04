@@ -22,7 +22,7 @@ banned = []
 with open("banned.txt", "r") as f:
     f = f.read().split()
     banned.append(f)
-trys, trys2 = [0], [0]
+trys, trys = [0], [0]
 isclaim = ["off"]
 isauto = ["off"]
 
@@ -595,7 +595,7 @@ async def hunterusername(event):
                 )
                 await event.client.send_message(
                     event.chat_id,
-                    f"**⌯ Hi New Telegram User\n\n⌯ UserName: - (@{username})\n\n⌯ Hunting Log {trys2[0]}\n\n⌯ by : @o_o_v\n\n⌯ by : @ppqbot**",
+                    f"**⌯ Hi New Telegram User\n\n⌯ UserName: - (@{username})\n\n⌯ Hunting Log {trys[0]}\n\n⌯ by : @o_o_v\n\n⌯ by : @ppqbot**",
                 )
                 break
             except telethon.errors.rpcerrorlist.UsernameInvalidError:
@@ -684,7 +684,7 @@ async def _(event):
                 break
         else:
             pass
-        trys2[0] += 1
+        trys[0] += 1
 
         await asyncio.sleep(1.3)
     isclaim.clear()
@@ -705,7 +705,7 @@ async def _(event):
 @eighthon.on(events.NewMessage(outgoing=True, pattern=r"\.حالة التثبيت"))
 async def _(event):
     if "on" in isauto:
-        await event.edit(f"**- التثبيت وصل لـ({trys2[0]}) من المحاولات**")
+        await event.edit(f"**- التثبيت وصل لـ({trys[0]}) من المحاولات**")
     elif "off" in isauto:
         await event.edit("**- التثبيت بالاصل لا يعمل .**")
     else:
