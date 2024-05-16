@@ -609,7 +609,7 @@ async def hunterusername(event):
                 )
                 await event.client.send_message(
                     event.chat_id,
-                    f"**⌯ Hi New Telegram User\n\n⌯ UserName: - (@{username})\n\n⌯ Hunting Log {trys[0]}\n\n⌯ by : @o_o_v\n\n⌯ by : @ppqbot**",
+                    f"**⌯⎱ We Are The Best\n–––––––––––––––\n⌯⎱ User : @{username}\n⌯⎱ Clicks :\n⌯⎱ Save :\nChannel\n–––––––––––––––\n⌯⎱By : @o_o_v**",
                 )
                 break
             except telethon.errors.rpcerrorlist.UsernameInvalidError:
@@ -677,7 +677,7 @@ async def _(event):
                 )
                 await event.client.send_message(
                     event.chat_id,
-                    f"**⌯ Hi New Telegram User\n\n·––––––––––––––––·\n\n⌯ User : @{username}\n\n⌯ Hunting Log 0\n\n·––––––––––––––––·\n\n⌯ by : @o_o_v \n\n⎱ @ppqbot**",
+                    f"**⌯⎱ We Are The Best\n–––––––––––––––\n⌯⎱ User : @{username}\n⌯⎱ Clicks :\n⌯⎱ Save :\nChannel\n–––––––––––––––\n⌯⎱By : @o_o_v**",
                 )
                 break
             except telethon.errors.rpcerrorlist.UsernameInvalidError:
@@ -758,11 +758,13 @@ async def _(event):
                         await eighthon(functions.channels.UpdateUsernameRequest(
                             channel=ch, username=username))
                         await event.client.send_message(event.chat_id, f'''** 
-⌯ Hi New Telegram User
-
-⌯ UserName: - (@{username})
-
-⌯ by : @o_o_v ⎱ by : @ppqbot **
+⌯⎱ We Are The Best
+–––––––––––––––
+⌯⎱ User : @{username}
+⌯⎱ Clicks : 
+⌯⎱ Save : Channel 
+–––––––––––––––
+⌯⎱ By : @o_o_v**
     ''')
                         break
                     except telethon.errors.rpcerrorlist.UsernameInvalidError:
@@ -793,11 +795,13 @@ async def _(event):
                 await eighthon(functions.channels.UpdateUsernameRequest(
                     channel=ch, username=username))
                 await event.client.send_message(event.chat_id, f'''**
-⌯ Hi New Telegram User
-
-⌯ UserName: - (@{username})
-
-⌯ by : @o_o_v ⎱ by : @ppqbot
+⌯⎱ We Are The Best
+–––––––––––––––
+⌯⎱ User : @{username}
+⌯⎱ Clicks : 
+⌯⎱ Save : Channel 
+–––––––––––––––
+⌯⎱ By : @o_o_v
 -- -- -- -- -- -- -- -- -- -- -- -- -- **
     ''')
             except telethon.errors.rpcerrorlist.UsernameInvalidError:
