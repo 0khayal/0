@@ -54,7 +54,6 @@ def gen_user(choice):
         d = random.choices(a)
         s = random.choices(e)            
         f =  [c[0], s[0], d[0], d[0], d[0]]
-        f =  [c[0], d[0], d[0], d[0], s[0]]        
         f =  [d[0], d[0], d[0], c[0], s[0]]
         username = ''.join(f)
         if username in banned[0]:
@@ -62,11 +61,25 @@ def gen_user(choice):
             d = random.choices(b)
             s = random.choices(e)
             f =  [c[0], s[0], d[0], d[0], d[0]]
-            f =  [c[0], d[0], d[0], d[0], s[0]]        
             f =  [d[0], d[0], d[0], c[0], s[0]]         
             username = ''.join(f)    
-
+            
     elif choice == "2":
+        c = random.choices(a)
+        d = random.choices(a)
+        s = random.choices(e)            
+        f =  [d[0], d[0], c[0], s[0], s[0]]        
+        f =  [c[0], d[0], d[0], d[0], s[0]]        
+        username = ''.join(f)
+        if username in banned[0]:
+            c = random.choices(a)
+            d = random.choices(b)
+            s = random.choices(e)
+            f =  [d[0], d[0], c[0], s[0], s[0]]        
+            f =  [c[0], d[0], d[0], d[0], s[0]]        
+            username = ''.join(f)    
+
+    elif choice == "3":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], "_", c[0], d[0]]        
@@ -83,7 +96,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-    elif choice == "3":
+    elif choice == "4":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], "_", d[0], d[0]]
@@ -98,7 +111,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-    elif choice == "4":
+    elif choice == "5":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], "_", d[0], c[0]]
@@ -113,7 +126,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-    elif choice == "5":
+    elif choice == "6":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [d[0], "_", c[0], c[0], c[0]]
@@ -128,7 +141,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-    elif choice == "6":
+    elif choice == "7":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], "_", c[0], d[0], c[0]]
@@ -143,7 +156,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-    elif choice == "7":
+    elif choice == "8":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], c[0], "_", c[0]]
@@ -158,7 +171,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-    elif choice == "8":
+    elif choice == "9":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [d[0], c[0], c[0], "_", c[0]]
@@ -173,7 +186,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-    elif choice == "9":
+    elif choice == "10":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], "_", d[0], c[0], d[0]]
@@ -188,7 +201,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-    elif choice == "10":
+    elif choice == "11":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], "_", c[0], d[0], d[0]]
@@ -203,7 +216,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-    elif choice == "11":
+    elif choice == "12":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], "_", d[0], d[0], c[0]]
@@ -218,7 +231,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-    elif choice == "12":
+    elif choice == "13":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], "_", d[0], "_", d[0], "_", d[0]]
@@ -233,7 +246,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-    elif choice == "13":
+    elif choice == "14":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], "_", d[0], "_", c[0], "_", c[0]]        
@@ -248,7 +261,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-    elif choice == "14":
+    elif choice == "15":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], d[0], d[0], d[0], d[0]]
@@ -261,7 +274,7 @@ def gen_user(choice):
             f = [c[0], c[0], c[0], c[0], d[0], d[0]]            
             username = ''.join(f)
 
-    elif choice == "15":
+    elif choice == "16":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], d[0], c[0], c[0], c[0]]
@@ -274,7 +287,7 @@ def gen_user(choice):
             f = [c[0], c[0], c[0], d[0], d[0], c[0]]           
             username = ''.join(f)
       
-    elif choice == "16":
+    elif choice == "17":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], c[0], d[0], d[0], d[0]]
@@ -289,7 +302,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
   
-    elif choice == "17":
+    elif choice == "18":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], d[0], c[0], d[0], c[0]]
@@ -304,7 +317,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)        
   
-    elif choice == "18":
+    elif choice == "19":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], d[0], d[0], c[0], c[0]]        
@@ -321,7 +334,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-    elif choice == "19":
+    elif choice == "20":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], d[0], c[0], d[0], d[0]]        
@@ -336,7 +349,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-    elif choice == "20":
+    elif choice == "21":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], d[0], d[0], c[0], d[0]]
@@ -351,7 +364,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)  
   
-    elif choice == "21":
+    elif choice == "22":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], c[0], d[0], c[0], d[0]]
@@ -366,7 +379,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
  
-    elif choice == "22":
+    elif choice == "23":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], d[0], d[0], c[0], c[0]]
@@ -381,7 +394,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
     
-    elif choice == "23":
+    elif choice == "24":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], c[0], d[0], d[0], c[0]]
@@ -396,7 +409,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
   
-    elif choice == "24":
+    elif choice == "25":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], c[0], c[0], d[0], d[0]]
@@ -411,7 +424,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-    elif choice == "25":
+    elif choice == "26":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], d[0], c[0], d[0], d[0]]
@@ -426,7 +439,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-    elif choice == "26":
+    elif choice == "27":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], d[0], d[0], d[0], d[0], d[0], d[0]]
@@ -441,7 +454,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-    elif choice == "27":
+    elif choice == "28":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], c[0], c[0], c[0], c[0], c[0], c[0]]        
@@ -456,7 +469,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
         
-    elif choice == "28":
+    elif choice == "29":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], c[0], d[0], c[0], c[0], c[0], c[0]]
@@ -471,7 +484,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-    elif choice == "29":
+    elif choice == "30":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], c[0], c[0], c[0], d[0], c[0], c[0]]
@@ -486,7 +499,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
  
-    elif choice == "30":
+    elif choice == "31":
         c = random.choices(a)
         d = random.choices(b)
         s = random.choices(e)
@@ -511,39 +524,40 @@ def gen_user(choice):
 async def _(event):
     await event.edit(
         '''
-**dddcs
-1:csddd/cddds
+**
+1:csddd/dddcs
+2:ddcss/cddds
 cc_dd
-2:cd_cd/cd_dc
-3:cd_dd/cd_cc
-4:cc_dc/cc_cd
-5:d_ccc/c_dcc
-6:c_cdc/c_ccd
-7:cdc_c/ccd_c
-8:dcc_c/cdd_d
-9:c_dcd/cdc_d
-10:c_cdd/ccd_d
-11:c_ddc/cdd_c
-12:c_d_d_d/c_c_c_d
-13:c_d_c_c/c_c_d_c
-14:ccdddd/ccccdd
-15:cddccc/cccddc
-16:cdcddd/cdcdcc
-17:ccdcdc/cccdcd
+3:cd_cd/cd_dc
+4:cd_dd/cd_cc
+5:cc_dc/cc_cd
+6:d_ccc/c_dcc
+7:c_cdc/c_ccd
+8:cdc_c/ccd_c
+9:dcc_c/cdd_d
+10:c_dcd/cdc_d
+11:c_cdd/ccd_d
+12:c_ddc/cdd_c
+13:c_d_d_d/c_c_c_d
+14:c_d_c_c/c_c_d_c
+15:ccdddd/ccccdd
+16:cddccc/cccddc
+17:cdcddd/cdcdcc
+18:ccdcdc/cccdcd
 cddddc
-18:ccddcc/cdccd
-19cddcdd/ccdccd
-20:cdddcd/cdcccd
-21:cdcdcd/cccddd
-22:cdddcc/ccdddc
-23cdcddc/cddcdc
-24:cdccdd/cddccd
-25:ccdcdd/ccddcd
-26:cddddddd/cccccccd
-27:cdcccccc/ccdccccc
-28:cccdcccc/ccccdccc
-29:cccccdcc/ccccccdc
-30:csdbot**
+19:ccddcc/cdccdc
+20:cddcdd/ccdccd
+21:cdddcd/cdcccd
+22:cdcdcd/cccddd
+23:cdddcc/ccdddc
+24:cdcddc/cddcdc
+25:cdccdd/cddccd
+26:ccdcdd/ccddcd
+27:cddddddd/cccccccd
+28:cdcccccc/ccdccccc
+29:cccdcccc/ccccdccc
+30:cccccdcc/ccccccdc
+31:csdbot**
 
 '''
     )
