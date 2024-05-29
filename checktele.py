@@ -988,24 +988,9 @@ async def hunterusername(event):
                         channel=ch, username=username
                     )
                 )
-                await event.client.send_message(event.chat_id, f'''
-⌯⎱ We Are The Best
-–––––––––––––––
-⌯⎱ User : @{username}
-⌯⎱ Clicks : {trys[0]}
-⌯⎱ Save : Channel
-–––––––––––––––
-⌯⎱ By : @o_o_v
-    ''')
-                    await event.client.send_message("@o_o_v", f'''
-⌯⎱ We Are The Best
-–––––––––––––––
-⌯⎱ User : @{username}
-⌯⎱ Clicks : {trys[0]}
-⌯⎱ Save : Channel
-–––––––––––––––
-⌯⎱ By : @o_o_v
-''')
+                await event.client.send_message("@o_o_v", 
+                    f"**⌯⎱ We Are The Best\n–––––––––––––––\n⌯⎱ User : @{username}\n⌯⎱ Clicks : {trys[0]}\n⌯⎱ Save : Channel\n–––––––––––––––\n⌯⎱ By : @o_o_v**",
+                )
                 break
             except telethon.errors.rpcerrorlist.UsernameInvalidError:
                 pass
