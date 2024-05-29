@@ -62,7 +62,7 @@ def gen_user(choice):
             f =  [c[0], s[0], d[0], d[0], d[0]]
             username = ''.join(f)    
   
-   elif choice == "2":
+    elif choice == "2":
         c = random.choices(a)
         d = random.choices(a)
         s = random.choices(e)            
@@ -808,7 +808,7 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
 
-elif choice == "60":
+    elif choice == "60":
         c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], c[0], c[0], c[0], c[0], d[0], c[0], c[0]]
