@@ -1019,7 +1019,7 @@ async def hunterusername(event):
         trys[0] += 1
     isclaim.clear()
     isclaim.append("off")
-    await event.client.send_message(event.chat_id, "**تم بنجاح الصيد**")
+    await event.client.send_message(event.chat_id, "**تم بنجاح الصيد والانتهاء من الفحص**")
 
 
 @eighthon.on(events.NewMessage(outgoing=True, pattern=r"\.تثبيت"))
@@ -1086,7 +1086,7 @@ async def _(event):
     await eighthon.send_message(event.chat_id, "**- تم الانتهاء من التثبيت بنجاح**")
 
 
-@eighthon.on(events.NewMessage(outgoing=True, pattern=r"\.الحالة"))
+@eighthon.on(events.NewMessage(outgoing=True, pattern=r"\.حالة الصيد"))
 async def _(event):
     if "on" in isclaim:
         await event.edit(f"** الصيد وصل لـ({trys[0]}) من المحاولات**")
